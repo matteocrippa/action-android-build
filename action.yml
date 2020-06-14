@@ -1,0 +1,22 @@
+ame: 'Action Android Build'
+description: 'GitHub actions that build debug and releas APKs as artifacts'
+author: 'matteocrippa'
+branding:
+  icon: 'play'
+  color: 'green'
+inputs:
+  ndk:
+    description: 'NDK version to build the project'
+    required: true
+  debugPath:
+    description: 'Debug APK path'
+    required: true
+  debugName:
+    description: 'Debug APK name'
+    required: true
+  releasePath:
+    description: 'Release APK path'
+    required: true
+  releaseName:
+    description: 'Release APK name'
+    required: true
